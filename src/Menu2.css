@@ -1,0 +1,144 @@
+.Menu .menu-icn {
+    width: 35px;
+    display: none;
+}
+
+.Menu {
+    --menu-sub-color: #BEBEBE; 
+    --menu-dom-color: #293241;
+    display: flex;
+    font-family: 'Avenir', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.Menu a {
+    margin: 0 24px;
+    color: var(--menu-sub-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+.Menu a:hover {
+    color: var(--menu-dom-color);
+}
+
+.Menu .overlay-content {
+    display: flex;
+    width: 50vw;
+    margin-left: 2vw;
+}
+
+.closebtn {
+    display: none;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.socials a {
+    margin: 0;
+}
+
+.socials img {
+    width: 33px;
+    margin: 0 10px;
+    /* margin: 0; */
+    padding: 0;
+}
+@media only screen and (max-width: 650px) {
+    .Menu img {
+        width: 60px;
+    }
+
+    .Menu .overlay-content a {
+        margin: 0 8px;
+    }
+
+    .Menu .socials img {
+        width: 30px;
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Menu {
+        margin: 0;
+    }
+    
+    .Menu .menu-icn {
+        display: block;
+        float: right;
+        cursor: pointer;
+        
+    }
+    .overlay {
+        
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        padding-left: 20vw;
+        /* border: 1px solid greenyellow; */
+        position: relative;
+        flex-direction: column;
+        margin-left: 25%;
+        width: 150vw;
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+    
+    .overlay a {
+        padding: 16px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block; /* Display block instead of inline */
+        transition: 0.3s; /* Transition effects on hover (color) */
+      }
+    
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 65px;
+    }
+
+    .nav-top {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5vh;
+        padding: 0 10vw;
+        /* border: 1px solid red; */
+    }
+
+    .socials {
+        display: none;
+    }
+}
