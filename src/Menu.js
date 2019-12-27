@@ -1,5 +1,5 @@
 import React from 'react'
-import './Menu2.css'
+import './Menu.css'
 import Logo from './assets/logo.svg'
 import Github from './assets/github.jpg'
 import LinkedIn from './assets/linkedin.jpg'
