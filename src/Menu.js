@@ -12,21 +12,8 @@ class Menu extends React.Component {
             open: false, 
             height: 0
         }
-        // this.handleClick = this.handleClick.bind(this)
         this.linkColor = this.linkColor.bind(this)
     }
-
-    // handleClick() {
-    //     this.setState((prevState) => {
-    //         console.log(window.innerWidth)
-    //         if (prevState.height === 0 && window.innerWidth <= 500) {
-    //             return {open: !prevState.open, height: 85}
-    //         } else {
-    //             return {open: !prevState.open, height: 0}
-    //         }
-    //     })
-        
-    // }
 
     // Selected page color should be dark if looked at on desktop/tablet
     // Otherwise, the selected pages should be white
@@ -52,7 +39,7 @@ class Menu extends React.Component {
                 <div style={this.state.open == true ? {width: "100vw"} : {width: "0vw"}} id="myNav" className="overlay">
                     <a href="#" className="closebtn" onClick={() => {this.setState({open: false})}}>&times;</a>
 
-                    <div class="overlay-content">
+                    <div className="overlay-content">
                         <a onClick={() => this.setState({page: 0})}
                            style={this.state.page === 0 ? this.linkColor() : {}}
                            href="#about">Home</a>

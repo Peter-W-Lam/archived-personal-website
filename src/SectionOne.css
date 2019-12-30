@@ -1,0 +1,155 @@
+
+.SectionOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SectionOne .welcome-text {
+    --main-text-color: #293241;
+    --light-grey: #9F9F9F;
+    color: var(--main-text-color);
+    text-align: left;
+    padding-bottom: 10vh;
+}
+
+.SectionOne .welcome-text h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.welcome-text h1 {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.welcome-text h4 {
+    font-size: 25px;
+    color: var(--light-grey);
+    margin: 0;
+}
+
+
+.intro-btns {
+    display: flex;
+    margin-top: 4vh;
+}
+
+#download-cv-btn {
+    margin-left: 2vw;
+}
+
+.welcome-portrait img {
+    width: 25vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .intro-btns {
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .intro-btns .Button {
+        max-width: 70%;
+    }
+
+    #download-cv-btn {
+        margin: 10px 0 0 0;
+    }
+
+    .SectionOne .welcome-text h2 {
+        font-size: 37px;
+    }
+    
+    .welcome-text h1 {
+        font-size: 50px;
+    }
+    
+    .welcome-text h4 {
+        font-size: 22px;
+    }
+
+    .welcome-portrait img {
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .SectionOne .welcome-text h2 {
+        font-size: 32px;
+    }
+    
+    .welcome-text h1 {
+        font-size: 38px;
+    }
+    
+    .welcome-text h4 {
+        font-size: 18px;
+    }
+
+    .intro-btns {
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .intro-btns .Button {
+        max-width: 72%;
+        font-size: 14px;
+    }
+
+    #download-cv-btn {
+        margin: 10px 0 0 0;
+    }
+
+    .welcome-portrait img {
+        width: 35vw;
+        margin: 0;
+        padding: 0 2vw 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .SectionOne {
+        flex-direction: column-reverse;
+    }
+
+    .welcome-portrait img {
+        width: 70vw;
+        margin: 5vh 0 0 0;
+        padding: 0 2vw 0 0;
+    }
+
+    .welcome-text {
+        margin-top: 2vh;
+        /* border: 1px solid red; */
+        width: 80vw;
+    }
+
+    .welcome-text * {
+        text-align: center;
+    }
+
+    .SectionOne .welcome-text h2 {
+        font-size: 38px;
+    }
+
+    .welcome-text h1 {
+        font-size: 55px;
+    }
+    
+    .welcome-text h4 {
+        font-size: 25px;
+    }
+    
+
+    .intro-btns {
+        align-items: center;
+    }
+    .intro-btns .Button {
+        width: 290px;
+        font-size: 17px;
+    }
+}
