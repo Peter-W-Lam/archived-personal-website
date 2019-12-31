@@ -1,0 +1,58 @@
+.BioCard {
+    /* position: relative; */
+    border: 2px solid #E5E5E5;
+    height: 350px;
+    width: 250px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* padding: 43px 15px 27px 15px; */
+}
+
+.BioCard h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.BioCard h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.BioCard:hover {
+    background: var(--main-yellow);
+    color: var(--main-black);
+    box-shadow: 0 1px 16px 0 rgba(0,0,0,0.22);
+    /* border: none; */
+    border: 1px solid clear;
+}
+
+.BioCard .text {
+    /* border: 1px solid red; */
+    padding-top: 10%;
+    padding: 0;
+    width: 80%;
+    /* margin: 40px 10px 10px 10px; */
+}
+
+.BioCard a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--main-black);
+}
+
+@media only screen and (max-width: 700px) {
+    .BioCard {
+        width: 80%;
+        height: 280px;
+        margin: 1% 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .BioCard {
+        height: 345px;
+    }
+}

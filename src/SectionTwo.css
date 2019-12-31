@@ -1,0 +1,33 @@
+.SectionTwo {
+    --main-yellow: #FFD000
+}
+
+
+.section-heading h1 {
+    /* border: 1px solid red; */
+    text-align: left;
+    line-height: 0.8em;
+}
+
+/* Partial underlines under section headings */
+.section-heading h1:after {
+    background: none repeat scroll 0 0 var(--main-yellow);
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 8px;
+    position: relative;
+    width: 100px;
+ }
+
+ .SectionTwo .cards {
+     display: flex;
+     margin-top: 6vh;
+     flex-wrap: wrap;
+ }
+
+ .SectionTwo .cards .BioCard {
+     margin-top: 10px;
+     margin-right: 25px;
+ }
+ 

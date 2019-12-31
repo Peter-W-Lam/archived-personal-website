@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Avenir', sans-serif;
+
+  --main-yellow: #FFD000;
+  --main-black: #293241;
 }
