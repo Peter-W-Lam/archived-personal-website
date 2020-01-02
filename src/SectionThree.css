@@ -1,0 +1,52 @@
+.SectionThree {
+    margin: 10vh 0 0 0;
+    background: var(--main-blue);
+    text-align: left;
+}
+
+.section-heading-right h1 {
+    text-align: right;
+    line-height: 0.8em;
+}
+
+/* Partial underlines under section headings */
+.section-heading-right h1:after {
+    background: none repeat scroll 0 0 var(--main-yellow);
+    margin-left: auto;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 8px;
+    position: relative;
+    width: 100px;
+ }
+
+ .content {
+     margin: 0 10vw;
+     padding-top: 5vh;
+ }
+
+ .cards {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .column {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+ @media only screen and (max-width: 925px) {
+     .cards {
+         flex-direction: column;
+     }
+
+ }
+
+ @media only screen and (max-width: 500px) {
+     
+    .content {
+        margin: 0 5vw;
+    }
+ }

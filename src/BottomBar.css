@@ -1,0 +1,50 @@
+.BottomBar {
+    width: 100%;
+    background: var(--main-black);
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.BottomBar ul {
+    display: flex;
+}
+
+.BottomBar li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.BottomBar a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.BottomBar .social-icons img{
+    width: 32px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+    .BottomBar {
+        flex-direction: column;
+    }
+
+    .BottomBar ul {
+        padding: 0;
+    }
+
+    .BottomBar a {
+        font-size: 17px;
+    }
+    .BottomBar li {
+        margin: 0 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+}

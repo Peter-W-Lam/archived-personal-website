@@ -5,6 +5,7 @@ import { BrowserRouter as Router,
 
 import Menu from './Menu'
 import Home from './Home'
+import BottomBar from './BottomBar'
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
          <Route exact path="/" component={Home} />
        </Switch>
      </Router>
+     <BottomBar />
     </div>
   );
 }

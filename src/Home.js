@@ -4,6 +4,8 @@ import './Home.css'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
 import SectionThree from './SectionThree'
+import SectionFour from './SectionFour'
+import BottomBar from './BottomBar'
 
 class Home extends React.Component {
     render() {
@@ -12,6 +14,7 @@ class Home extends React.Component {
                 <SectionOne />
                 <SectionTwo />
                 <SectionThree />
+                <SectionFour />
             </div>
         )
     }
