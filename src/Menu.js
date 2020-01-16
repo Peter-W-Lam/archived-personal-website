@@ -42,13 +42,13 @@ class Menu extends React.Component {
                     <div className="overlay-content">
                         <a onClick={() => this.setState({page: 0})}
                            style={this.state.page === 0 ? this.linkColor() : {}}
-                           href="#about">Home</a>
+                           href="/">Home</a>
                         <a onClick={() => this.setState({page: 1})}
                            style={this.state.page === 1 ? this.linkColor() : {}}
                            href="#projects">Projects</a>
                         <a onClick={() => this.setState({page: 2})}
                            style={this.state.page === 2 ? this.linkColor() : {}}
-                           href="#contact">Contact</a>
+                           href="/contact">Contact</a>
                     </div>
                 </div>
                 <div className="socials">

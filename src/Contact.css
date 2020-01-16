@@ -1,0 +1,37 @@
+.Contact {
+    min-height: 75vh;
+}
+
+.Contact h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.Contact h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.Contact img {
+    width: 160px;
+    margin: 10px;
+    transition: all 0.15s ease-in-out;
+}
+
+.Contact .cards {
+    justify-content: center;
+    display: flex;
+}
+
+.Contact img:hover {
+    transform: scale(1.03)
+}
+
+.Contact .card p {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}

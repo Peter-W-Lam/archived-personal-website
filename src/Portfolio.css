@@ -1,0 +1,14 @@
+.Portfolio {
+    min-height: 80vh;
+    margin: 10vh 10vw;
+}
+
+.Portfolio .writing-links {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Portfolio .writing-links a {
+    color: var(--main-red);
+}

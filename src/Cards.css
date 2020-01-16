@@ -1,0 +1,131 @@
+.Cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.Cards .arrow {
+    background: var(--main-yellow);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.21);
+    top: 69%;
+}
+
+.Cards .arrow img {
+    width: 20px;
+}
+
+.Cards #left-arr-btn img {
+    margin-left: 5px;
+}
+.Cards .arrow:hover {
+    background: var(--main-yellow);
+    color: #FFF;
+}
+
+#left-arr-btn {
+    right: 8%;
+}
+
+#right-arr-btn {
+    left: 8%;
+}
+
+.Cards .card {
+    width: 320px;
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+    padding: 10px;
+    background-size: cover;
+    margin: 10px;
+    
+    flex: 0 0 auto;
+}
+
+.Cards .stack {
+    display: flex;
+    flex-direction: column;
+}
+
+#card-1 {
+    background-image: url("assets/sample-photos/pic1.jpg");
+}
+
+#card-2 {
+    background-image: url("assets/sample-photos/pic4.jpg");
+}
+#card-3 {
+    background-image: url("assets/sample-photos/pic2.jpg");
+}
+#card-4 {
+    background-image: url("assets/sample-photos/pic3.jpg");
+}
+#card-5 {
+    background-image: url("assets/sample-photos/pic5.jpg");
+}
+#card-6 {
+    background-image: url("assets/sample-photos/pic1.jpg");
+}
+#card-7 {
+    background-image: url("assets/sample-photos/pic3.jpg");
+}
+#card-8 {
+    background-image: url("assets/sample-photos/pic4.jpg");
+}
+.Cards .overlay {
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    /* Text styling    */
+    text-align: center;
+}
+
+.Cards .card:hover .overlay {
+    opacity: 1;
+}
+
+.Cards .overlay p {
+    margin-top: 10%;
+    color: #FFF;
+}
+
+.Cards button {
+    outline: none;
+    border: 2px solid #FFF;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    color: white;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+
+.Cards button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+}
+
+
+.Cards .content {
+    margin: 10px 30px;
+}
+.Cards .buttons {
+    margin-top: 15%
+}
