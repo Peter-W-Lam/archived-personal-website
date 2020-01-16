@@ -2,6 +2,7 @@ import React from "react"
 import Button from "./Button"
 import './SectionOne.css'
 import Portrait from './assets/portrait.png'
+import {Link} from "react-router-dom"
 
 
 class SectionOne extends React.Component {
@@ -13,7 +14,7 @@ class SectionOne extends React.Component {
                     <h1>Peter Lam</h1>
                     <h4>Student &amp; Front-End Developer</h4>
                     <div className="intro-btns">
-                        <Button name="Get in touch" filled={true}/>
+                        <Button name="Get in touch" filled={true} onClick={() => window.location.href="/contact"}/>
                         <Button name="Download CV" filled={false} id="download-cv-btn"/> 
                     </div>
                 </div>

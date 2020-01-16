@@ -1,5 +1,4 @@
 .BioCard {
-    /* position: relative; */
     border: 2px solid #E5E5E5;
     height: 350px;
     width: 250px;
@@ -8,7 +7,6 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    /* padding: 43px 15px 27px 15px; */
 }
 
 .BioCard h1 {
@@ -31,17 +29,18 @@
 }
 
 .BioCard .text {
-    /* border: 1px solid red; */
-    padding-top: 10%;
     padding: 0;
     width: 80%;
-    /* margin: 40px 10px 10px 10px; */
 }
 
 .BioCard a {
     font-weight: 600;
     text-decoration: none;
     color: var(--main-black);
+}
+
+#writing-bio-card p {
+    margin: 0 0 25% 0;
 }
 
 @media only screen and (max-width: 700px) {

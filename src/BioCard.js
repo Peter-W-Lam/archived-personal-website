@@ -4,7 +4,7 @@ import './BioCard.css'
 class BioCard extends React.Component {
     render() {
         return(
-            <div className="BioCard">
+            <div className="BioCard" id={this.props.id}>
                 <div className="text">
                     <h1>{this.props.num}</h1>
                     <h2>{this.props.title}</h2>

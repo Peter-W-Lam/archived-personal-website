@@ -45,7 +45,7 @@ class Menu extends React.Component {
                            href="/">Home</a>
                         <a onClick={() => this.setState({page: 1})}
                            style={this.state.page === 1 ? this.linkColor() : {}}
-                           href="#projects">Projects</a>
+                           href="/portfolio">Portfolio</a>
                         <a onClick={() => this.setState({page: 2})}
                            style={this.state.page === 2 ? this.linkColor() : {}}
                            href="/contact">Contact</a>

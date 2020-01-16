@@ -17,7 +17,7 @@ class Button extends React.Component {
             }
         }
         return (
-            <button className="Button" style={style} id={this.props.id}>{this.props.name}</button>
+            <button className="Button" style={style} id={this.props.id} onClick={this.props.onClick}>{this.props.name}</button>
         )
     }
 }

@@ -35,24 +35,24 @@ class SectionThree extends React.Component {
                                 <ResumeCard title="Documentary Songwriters"
                                             subhead="Front-End Lead"
                                             date="Sept. 2019 - Present"
-                                            descr="Through student organization JumboCode. Leading a small team of front-end developers."
+                                            descr="Student organization. Currently leading a small team to build the front-end interface of a web application in React.js for non-profit. Organizing timeline of development, as well as providing instruction and support to team members."
                                 />
                                 <ResumeCard title="Bookbuilding Workshops Inc."
-                                            subhead="Freelancer"
+                                            subhead="Web Design Freelancer"
                                             date="Aug. 2018 - July 2019"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle. Gangster erizzle. I'm in the shizzle izzle dolor dapibizzle turpis tempizzle tempor. Maurizzle pellentesque nibh check out this turpizzle. Its fo rizzle in rizzle."
+                                            descr="Worked with client to set up a non-profit company for educational children's workshops. Designed, built, and maintained a Squarespace site with a payment platform, and provided quick tech support to both client and customers."
                                 />
                             </div>
                             <div className="column">
                                 <ResumeCard title="Laidlaw Foundation"
                                             subhead="UI/UX Designer and Researcher"
                                             date="May 2018 - Aug. 2019"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle. I'm in the shizzle izzle dolor dapibizzle turpis tempizzle tempor. Maurizzle pellentesque nibh check out this turpizzle. Its fo rizzle in rizzle."
+                                            descr="Led independent research team to design an iOS app to help treat symptoms of patients with binge eating disorder. Conducted research on gamification and user interface engagement, then translated results of research into mockups of app using Sketch. Held regular meetings with team to maintain progress, and then presented results at student research conference."
                                 />
                                 <ResumeCard title="AccuAssembly"
                                             subhead="C# Intern"
                                             date="May 2017 - Aug. 2017"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle."
+                                            descr="Learned C# and VB.Net to ship a plugin in the first three weeks. Adapted a managed .NET C# DLL to be called from unmanaged C++ code. Created a plugin to sync software results with a web server. "
                                 />
                             </div>
                         </div>
@@ -64,25 +64,25 @@ class SectionThree extends React.Component {
                             <div className="column">
                                 <ResumeCard title="Ploughshares"
                                             subhead="Editorial Intern"
-                                            date="Sept. 2019 - Present"
-                                            descr="Through student organization JumboCode. Leading a small team of front-end developers."
+                                            date="June 2019 - Aug. 2019"
+                                            descr="Responded to queries from authors and submitters, sorted submissions, and conducted research for Editorial Assistants. Assisted in compiling statistics of submitters and subscribers"
                                 />
                                 <ResumeCard title="GrubStreet Inc."
-                                            subhead="Freelancer"
-                                            date="Aug. 2018 - July 2019"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle. Gangster erizzle. I'm in the shizzle izzle dolor dapibizzle turpis tempizzle tempor. Maurizzle pellentesque nibh check out this turpizzle. Its fo rizzle in rizzle."
+                                            subhead="Young Adult Writer's Program Intern"
+                                            date="June 2018 - Aug. 2018"
+                                            descr="Tracked student information for over 200 teenage students. Provided support for instructors with curriculum development and events, often under urgent deadlines."
                                 />
                             </div>
                             <div className="column">
                                 <ResumeCard title="Tufts Digital Collections and Archives"
                                             subhead="Research Assistant"
                                             date="Sept. 2016 - Present"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle. I'm in the shizzle izzle dolor dapibizzle turpis tempizzle tempor. Maurizzle pellentesque nibh check out this turpizzle. Its fo rizzle in rizzle."
+                                            descr="Independently researching questions for library patrons, locating  primary sources to find answers to queries. Assisting with in ArchivesSpace, a digital archives management system."
                                 />
                                 <ResumeCard title="Tufts Daily"
                                             subhead="Contributing Writer + Graphic Designer"
-                                            date="May 2017 - Aug. 2017"
-                                            descr="Lorem ipsizzle dolor shit the bizzle, fo adipiscing elizzle. Nullizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle crackalackin, cool volutpizzle, suscipit shut the shizzle up, for sure vel, yo. Pellentesque eget fo shizzle."
+                                            date="Sept. 2016 - Present"
+                                            descr="Contributing reviews for the arts section of the paper, up-to-date with current releases. Additionally acted in past as section head for graphics section of the paper, creating infographics to help visualize data-heavy articles."
                                 />
                             </div>
                         </div>
