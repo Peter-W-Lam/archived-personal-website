@@ -10,13 +10,13 @@ class Portfolio extends React.Component {
                 </div>
                 <Cards />
                 <div className="section-heading">
-                    <h1>Selected Writing</h1>
+                    <h1>Selected Writing Samples</h1>
                 </div>
                 <div className="writing-links">
-                    <p><a href="#">Review of "The Water Dancer" by Ta-Nehisi Coates</a> (Tufts Daily)</p>
-                    <p><a href="#">Review of "In the Dream House" by Carmen Maria Machado</a> (Tufts Daily)</p>
-                    <p><a href="#">UI/UX Review of the Snapchat Update</a></p>
-                    <p><a href="#">UI/UX Review of Waiting</a></p>
+                    <p><a href="https://tuftsdaily.com/arts/2019/10/06/power-memory-coates-water-dancer/">Review of "The Water Dancer" by Ta-Nehisi Coates</a> (Tufts Daily)</p>
+                    <p><a href="https://tuftsdaily.com/arts/2019/11/19/carmen-maria-machado-publishes-personal-memoir-dream-house/">Review of "In the Dream House" by Carmen Maria Machado</a> (Tufts Daily)</p>
+                    <p><a href="https://sites.tufts.edu/humanfactorspl/2018/03/08/the-design-of-the-hamburger-menu-icon/">UI/UX: The History Behind the Hamburger Menu Icon</a></p>
+                    <p><a href="https://sites.tufts.edu/humanfactorspl/2018/03/19/dont-hold-your-breath-wait-hate-and-user-psychology/">"Don't Hold Your Breath": A UI analysis of waiting</a></p>
                 </div>
             </div>
         )

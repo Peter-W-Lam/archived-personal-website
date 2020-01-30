@@ -2,7 +2,6 @@ import React from "react"
 import Button from "./Button"
 import './SectionOne.css'
 import Portrait from './assets/portrait.png'
-import {Link} from "react-router-dom"
 
 
 class SectionOne extends React.Component {

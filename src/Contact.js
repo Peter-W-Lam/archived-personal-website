@@ -18,11 +18,11 @@ class Contact extends React.Component {
                         <p>Email</p>
                     </div>
                     <div className="card">
-                        <a href="#linkedin"><img src={LinkedIn} alt="Icon of LinkedIn" /></a>
+                        <a href="https://www.linkedin.com/in/peterwlam/"><img src={LinkedIn} alt="Icon of LinkedIn" /></a>
                         <p>LinkedIn</p>
                     </div>
                     <div className="card">
-                        <a href="#github"><img src={Github} alt="Icon of Github" /></a>
+                        <a href="https://github.com/Peter-W-Lam"><img src={Github} alt="Icon of Github" /></a>
                         <p>Github</p>
                     </div>
                 </div>

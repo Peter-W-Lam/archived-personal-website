@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom";
 import "./Cards.css"
 
 import LeftArrow from './assets/left-arrow.svg'
@@ -27,91 +26,19 @@ class Cards extends React.Component {
         return(
             <div className="Cards" ref="cards">
                 <button className="arrow" id="left-arr-btn" onClick={this.handleLeftScroll}>
-                    <img src={RightArrow} />
+                    <img src={RightArrow} alt="Right arrow icon"/>
                 </button>
                 <button className="arrow" id="right-arr-btn" onClick={this.handleRightScroll}>
-                    <img src={LeftArrow} />
+                    <img src={LeftArrow} alt="Left arrow icon" />
                 </button>
-                <div className="stack">
-                    <div className="card" id="card-5">
-                        <div className="overlay">
-                            <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                                <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card" id="card-6">
-                        <div className="overlay">
-                            <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                                <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="stack">
-                <div className="card" id="card-7">
-                        <div className="overlay">
-                            <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                                <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card" id="card-8">
-                        <div className="overlay">
-                            <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                                <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="stack">
-                    <div className="card" id="card-3">
-                        <div className="overlay">
-                            <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                                <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div className="card" id="card-4">
-                    <div className="overlay">
-                        <div className="content">
-                            <p>This was a quick project to learn more about how koalas survive in the wild.</p>
-                            <div className="buttons">
-                                <button>Demo</button>
-                                <button>Code</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
                 <div className="stack">
                     <div className="card" id="card-1">
                         <div className="overlay">
                             <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
+                                <p>This was a summer project to design an application for patients with binge eating disorder.</p>
                                 <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
+                                    <button>See More</button>
+                                    {/* <button>Code</button> */}
                                 </div>
                             </div>
                         </div>
@@ -119,10 +46,35 @@ class Cards extends React.Component {
                     <div className="card" id="card-2">
                         <div className="overlay">
                             <div className="content">
-                                <p>This was a quick project to learn more about how koalas survive in the wild.</p>
+                                <p>An accountability clock for writers facing a word-count-based deadline. </p>
                                 <div className="buttons">
-                                    <button>Demo</button>
-                                    <button>Code</button>
+                                    <button onClick={() => window.location.href='https://peterlam.me/doom-clock/'}>Demo</button>
+                                    <button onClick={() => window.location.href='https://github.com/Peter-W-Lam/doom-clock'}>Code</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="stack">
+                <div className="card" id="card-3">
+                        <div className="overlay">
+                            <div className="content">
+                                <p>A front-end implementation of a Dribbble design.</p>
+                                <div className="buttons">
+                                    {/* https://github.com/Peter-W-Lam/violet-notes */}
+                                    <button onClick={() => window.location.href='http://peterlam.me/violet-notes/#/'}>Demo</button>
+                                    <button onClick={() => window.location.href='https://github.com/Peter-W-Lam/violet-notes'}>Code</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card" id="card-4">
+                        <div className="overlay">
+                            <div className="content">
+                                <p>This was a quick project to learn React, specifically state and props</p>
+                                <div className="buttons">
+                                    <button onClick={() => window.location.href='http://peterlam.me/react-calculator/'}>Demo</button>
+                                    <button onClick={() => window.location.href='https://github.com/Peter-W-Lam/react-calculator'}>Code</button>
                                 </div>
                             </div>
                         </div>

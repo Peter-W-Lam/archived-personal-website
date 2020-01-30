@@ -2,20 +2,19 @@ import React from "react"
 import './BottomBar.css'
 import GithubLogo from './assets/github-logo.svg'
 import LinkedInLogo from './assets/linkedin-logo.svg'
-
+import {Link} from "react-router-dom"
 class BottomBar extends React.Component {
     render() {
         return (
             <div className="BottomBar">
                 <ul className="menu-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Writing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/portfolio">Portfolio</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
                 <div className="social-icons">
-                    <a href="#"><img src={GithubLogo} alt="Github Logo" /></a>
-                    <a href="#"><img src={LinkedInLogo} alt="LinkedIn Logo" /></a>
+                    <a href="https://github.com/Peter-W-Lam"><img src={GithubLogo} alt="Github Logo" /></a>
+                    <a href="https://www.linkedin.com/in/peterwlam/"><img src={LinkedInLogo} alt="LinkedIn Logo" /></a>
                 </div>
             </div>
         )
