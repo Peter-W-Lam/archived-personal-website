@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "peter-w-lam.github.io/static/css/main.3c462d84.chunk.css",
+    "main.js": "peter-w-lam.github.io/static/js/main.6df0ef78.chunk.js",
+    "main.js.map": "peter-w-lam.github.io/static/js/main.6df0ef78.chunk.js.map",
+    "runtime-main.js": "peter-w-lam.github.io/static/js/runtime-main.29765727.js",
+    "runtime-main.js.map": "peter-w-lam.github.io/static/js/runtime-main.29765727.js.map",
+    "static/js/2.97ab3b53.chunk.js": "peter-w-lam.github.io/static/js/2.97ab3b53.chunk.js",
+    "static/js/2.97ab3b53.chunk.js.map": "peter-w-lam.github.io/static/js/2.97ab3b53.chunk.js.map",
+    "index.html": "peter-w-lam.github.io/index.html",
+    "precache-manifest.3253eae84be5c82908d247f33f5a80de.js": "peter-w-lam.github.io/precache-manifest.3253eae84be5c82908d247f33f5a80de.js",
+    "service-worker.js": "peter-w-lam.github.io/service-worker.js",
+    "static/css/main.3c462d84.chunk.css.map": "peter-w-lam.github.io/static/css/main.3c462d84.chunk.css.map",
+    "static/js/2.97ab3b53.chunk.js.LICENSE": "peter-w-lam.github.io/static/js/2.97ab3b53.chunk.js.LICENSE",
+    "static/media/Cards.css": "peter-w-lam.github.io/static/media/card-4.b6cd5509.jpg",
+    "static/media/contact-1.png": "peter-w-lam.github.io/static/media/contact-1.88e5875b.png",
+    "static/media/contact-2.png": "peter-w-lam.github.io/static/media/contact-2.35c7b7f6.png",
+    "static/media/contact-3.png": "peter-w-lam.github.io/static/media/contact-3.7dc236fe.png",
+    "static/media/design-1.png": "peter-w-lam.github.io/static/media/design-1.37d2b4b3.png",
+    "static/media/design-2.png": "peter-w-lam.github.io/static/media/design-2.9b5644c4.png",
+    "static/media/design-3.png": "peter-w-lam.github.io/static/media/design-3.c9e2567a.png",
+    "static/media/dev-1.png": "peter-w-lam.github.io/static/media/dev-1.a8b02199.png",
+    "static/media/dev-2.png": "peter-w-lam.github.io/static/media/dev-2.ad67fe26.png",
+    "static/media/dev-3.png": "peter-w-lam.github.io/static/media/dev-3.d85bcf6e.png",
+    "static/media/dev-4.png": "peter-w-lam.github.io/static/media/dev-4.57868349.png",
+    "static/media/dev-5.png": "peter-w-lam.github.io/static/media/dev-5.7a85ab3d.png",
+    "static/media/dev-6.png": "peter-w-lam.github.io/static/media/dev-6.ad05bf8f.png",
+    "static/media/github-logo.svg": "peter-w-lam.github.io/static/media/github-logo.063d1784.svg",
+    "static/media/left-arrow.svg": "peter-w-lam.github.io/static/media/left-arrow.12af5971.svg",
+    "static/media/linkedin-logo.svg": "peter-w-lam.github.io/static/media/linkedin-logo.a116f65b.svg",
+    "static/media/logo.svg": "peter-w-lam.github.io/static/media/logo.c785f5d1.svg",
+    "static/media/menu.svg": "peter-w-lam.github.io/static/media/menu.32ddd7d9.svg",
+    "static/media/portrait.png": "peter-w-lam.github.io/static/media/portrait.3af4f5cd.png",
+    "static/media/right-arrow.svg": "peter-w-lam.github.io/static/media/right-arrow.ed2106bf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29765727.js",
+    "static/js/2.97ab3b53.chunk.js",
+    "static/css/main.3c462d84.chunk.css",
+    "static/js/main.6df0ef78.chunk.js"
+  ]
+}

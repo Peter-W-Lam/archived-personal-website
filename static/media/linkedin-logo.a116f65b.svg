@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-920.000000, -3969.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="linkedin-logo" transform="translate(920.000000, 3969.000000)">
+                <path d="M30.6,0 L3.4,0 C1.53,0 0,1.53 0,3.4 L0,30.6 C0,32.47 1.53,34 3.4,34 L30.6,34 C32.47,34 34,32.47 34,30.6 L34,3.4 C34,1.53 32.47,0 30.6,0 Z M10.2,28.9 L5.1,28.9 L5.1,13.6 L10.2,13.6 L10.2,28.9 Z M7.65,10.71 C5.95,10.71 4.59,9.35 4.59,7.65 C4.59,5.95 5.95,4.59 7.65,4.59 C9.35,4.59 10.71,5.95 10.71,7.65 C10.71,9.35 9.35,10.71 7.65,10.71 Z M28.9,28.9 L23.8,28.9 L23.8,19.89 C23.8,18.5300667 22.61,17.34 21.25,17.34 C19.89,17.34 18.7,18.5300667 18.7,19.89 L18.7,28.9 L13.6,28.9 L13.6,13.6 L18.7,13.6 L18.7,15.64 C19.55,14.28 21.42,13.26 22.95,13.26 C26.18,13.26 28.9,15.98 28.9,19.21 L28.9,28.9 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
